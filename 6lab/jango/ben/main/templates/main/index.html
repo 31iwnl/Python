@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="{% static 'main/css/index.css' %}">
+    <script type="text/javascript" src="{% static 'main/js/header.js' %}"></script>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab6</title>
+</head>
+<body>
+<div class="links">
+        <header id="header">
+            <div class="link-container">
+                <div class="pages">
+                    <a class="menu1" href="{% url 'main' %}">Главная</a>
+                    <a class="menu1" href="{% url 'info' %}">База данных</a>
+                    <a class="menu1" href="{% url 'add' %}">Добавление</a>
+                </div>
+            </div>
+            </header>
+</div>
+{% block body_block %}
+<div class = "theme">Lab 6</div>
+<div class = "info" align="center">
+<p>Вы находитесь на сайте Аронова Владимира</p>
+<p>Здесь вы можете просмотреть базу данных</p>
+<p>А также внести изменения, если вы являетесь администратором</p>
+</div>
+{% endblock %}
+
+</body>
+</html>

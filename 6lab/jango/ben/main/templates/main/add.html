@@ -1,0 +1,16 @@
+{% extends 'main/index.html'%}
+{% block body_block %}
+<div class = "info" align="center">
+    <p>Добавление нового студента</p>
+</div>
+        <main>
+        <form method="POST">
+            {% csrf_token %}
+            {{form.full_name}}
+            {{form.email}}
+            {{form.group}}
+            <span>{{ err }}</span>
+            <button  type = "submit">Добавить</button>
+        </form>
+        </main>
+{% endblock %}

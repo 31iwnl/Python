@@ -1,0 +1,214 @@
+
+*{
+	padding: 0px;
+	margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+
+
+html{
+    font-family: 'Kaushan Script', cursive;;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	 background-image: url(../img/1.jpg);
+	 background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+h1,h2,h3{font-size:inherit;font-weight: 400;}
+
+body {
+    font-family: Montserrat;
+}
+.links {
+    max-width: 1800px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+}
+.logo {
+    font-size: 28px;
+    color: yellow;
+    font-family: 'Kaushan Script', cursive;
+}
+.link-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Montserrat;
+    background-color:black;
+    height:45px;
+}
+
+.pages{
+    display: flex;
+}
+.theme{
+    margin: 20px;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color:black;
+}
+.menu1 {
+    font-family: 'Kaushan Script', cursive;;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    color: white;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-size: 16px;
+}
+.menu1:nth-child(7) {
+    color:yellow;
+    font-family: 'Kaushan Script', cursive;;
+}
+.menu1:hover {
+    color:yellow;
+    font-family: 'Kaushan Script', cursive;;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px 0px 0px 0px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form h1 {
+    color: white;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.info{
+    margin:20px;
+    font-size:40px;
+    font-family:sans-serif;
+}
+.alert-warning {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+td, .td {
+    text-align:center;
+    width:200px;
+    border: 1px solid black;
+    height:50px;
+    background-color:white;
+}
+
+table{
+    border-collapse: collapse;
+}
+.sql {
+    color:black;
+    border: solid black 1px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    display:flex;
+    justify-content:center;
+}
+.contat{
+    display: flex;
+    align-items: center;
+    flex-direction: inherit;
+    margin: 30px;
+    justify-content: center;
+}
+.button{
+    text-align:center;
+    width:200px;
+    border: 1px solid black;
+    height:50px;
+    color:black;
+    border-radius:10px;
+    margin:4px;
+
+}
+.button:hover {
+    color:red;
+    font-size:12px;
+}
+.button:nth-child(3) {
+    color:black;
+    font-family: 'Kaushan Script', cursive;;
+}
+.adding_stud{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+}
+input{
+        font-size: 13px;
+    margin: 10px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border: 2px solid white;
+    border-bottom: 2px solid black;
+    color: white;
+}
+form p {
+    padding-top: 10px;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    color:#ffffff;
+    margin-top: -200px;
+}
+form h1 {
+    color:white;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+form button {
+    margin-top: 15px;
+    height: 25px;
+    background-image:-moz-linear-gradient( lightblue 60%, white 90%);
+}
+input:focus{
+    border:2px solid black;
+
+}
+button:hover{
+    transform: scale(1.1);
+}
